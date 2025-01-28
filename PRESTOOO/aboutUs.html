@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi Siamo - Presto Rivoluzionato</title>
+    <!--Google font-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+     <!--Custom Css-->
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+    <header>
+      <h1>Chi Siamo - Presto Rivoluzionato</h1>
+    </header>
+
+    <nav>
+      <a href="./index.html">Home</a>
+      <a href="./annunci.html">Annunci</a>
+      <a href="./aboutUs.html">Chi Siamo</a>
+    </nav>
+
+    <div class="team-section">
+      <div class="team-cards">
+        <div class="card1" onclick="showDetails('Giulia Rossi', 'CEO & Founder', 'https://picsum.photos/120/120?random=1')">
+          <img src="https://picsum.photos/90/90?random=1" alt="Giulia Rossi">
+        </div>
+        <div class="card1" onclick="showDetails('Marco Bianchi', 'CTO', 'https://picsum.photos/120/120?random=2')">
+          <img src="https://picsum.photos/90/90?random=2" alt="Marco Bianchi">
+        </div>
+        <div class="card1" onclick="showDetails('Anna Verdi', 'Marketing Manager', 'https://picsum.photos/120/120?random=3')">
+          <img src="https://picsum.photos/90/90?random=3" alt="Anna Verdi">
+        </div>
+        <div class="card1" onclick="showDetails('Luigi Neri', 'Lead Developer', 'https://picsum.photos/120/120?random=4')">
+          <img src="https://picsum.photos/90/90?random=4" alt="Luigi Neri">
+        </div>
+      </div>
+      <div class="details">
+        <img src="" alt="">
+        <h3>Nome</h3>
+        <p>Ruolo</p>
+        <div class="description"></div>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2025 Presto. Tutti i diritti riservati.</p>
+    </footer>
+
+ 
+  <!-- Custom JS -->
+    <script src="annunci.js"></script>
+  </body>
+</html>
